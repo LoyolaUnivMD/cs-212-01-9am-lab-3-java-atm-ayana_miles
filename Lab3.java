@@ -5,7 +5,7 @@
 // Imports
 import java.util.Scanner;
 
-public class Lab3{
+public class ATM{
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         double deposit = 0;
@@ -15,7 +15,7 @@ public class Lab3{
         System.out.println("Hello, what is your name?");
         String name = scan.nextLine();
 
-        System.out.println(name + " it is nice to meet you!");
+        System.out.println(name + "it is nice to meet you!");
         System.out.println("To deposit money enter [D], to withdraw [W], to check balance [B], to leave [L]: ");
         String selection = scan.nextLine().toUpperCase();
 
